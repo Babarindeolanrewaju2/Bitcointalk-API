@@ -1,0 +1,23 @@
+{
+  "name": "btctalkapi",
+  "version": "1.0.0",
+  "description": "Api for btctalk",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Pete",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "jest": "^23.2.0",
+    "jsdom": "^11.11.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  }
+}
